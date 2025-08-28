@@ -38,7 +38,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # will be translated into IG.contact values.
 publisher:
   name: Botho Neo 
-  url: https://neo.roviders/
+  url: https://neo.providers/
   email: bothodolly@gmail.com
 
 # ContactDetail is required by the template.
