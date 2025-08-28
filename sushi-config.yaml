@@ -15,7 +15,7 @@ title: "Neo Connect"
 description: Automated birth and death registration system for improving vital statistics in Botswana.
 status: active
 license: CC0-1.0
-date: 2025-07-01
+date: 2025-08-28
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
