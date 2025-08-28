@@ -7,9 +7,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: neo.connect.fhir
-canonical: http://neo.providers.url/fhir
-url: http://neo.providers.url/fhir/ImplementationGuide/neo.connect.fhir
+id: neo.connect
+canonical: http://neo.providers/fhir
+url: http://neo.providers/fhir/ImplementationGuide/neo.connect
 name: Civil Registration - NEO CONNECT
 title: "NEO CONNECT"
 description: Automated birth and death registration system for improving vital statistics in Botswana.
@@ -38,7 +38,7 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # will be translated into IG.contact values.
 publisher:
   name: Botho Neo 
-  url: https://NeoProviders.url/
+  url: https://neo.roviders/
   email: bothodolly@gmail.com
 
 # ContactDetail is required by the template.
