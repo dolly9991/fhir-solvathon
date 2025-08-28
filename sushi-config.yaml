@@ -10,8 +10,8 @@
 id: neo.connect
 canonical: http://neo.providers/fhir
 url: http://neo.providers/fhir/ImplementationGuide/neo.connect
-name: Neo Connect for Civil Registration 
-title: "NEO CONNECT"
+name: Neo Connect
+title: "Neo Connect"
 description: Automated birth and death registration system for improving vital statistics in Botswana.
 status: active
 license: CC0-1.0
