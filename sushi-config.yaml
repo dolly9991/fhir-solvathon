@@ -7,12 +7,12 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: your.package.id
-canonical: http://your.canonical.url/fhir
-url: http://your.canonical.url/fhir/ImplementationGuide/your.package.id
-name: YourIgComputableName
-title: "Your IG Title"
-description: A sample FHIR Implementation Guide to create capacity among the community.
+id: neo.connect.fhir
+canonical: http://neo.providers.url/fhir
+url: http://neo.providers.url/fhir/ImplementationGuide/neo.connect.fhir
+name: Civil Registration - NEO CONNECT
+title: "NEO CONNECT"
+description: Automated birth and death registration system for improving vital statistics in Botswana.
 status: active
 license: CC0-1.0
 date: 2025-07-01
@@ -37,16 +37,16 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: Your Organization 
-  url: https://organization.url/
-  email: info@someorg.org
+  name: Botho Neo 
+  url: https://NeoProviders.url/
+  email: bothodolly@gmail.com
 
 # ContactDetail is required by the template.
 contact:
-  - name: Richard Langford
+  - name: Botho Neo
     telecom:
       - system: email
-        value: richard.langford@jembi.org
+        value: bothodolly@gmail.com
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
