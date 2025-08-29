@@ -27,4 +27,4 @@ Description: "Profile for recording death registration in Botswana"
     DeathTime named deathTime 0..1
 
 * maritalStatus from VSMaritalStatus (extensible)
-* extension contains MyMaritalStatusExtension named * maritalStatus 0..1
+* extension contains MyMaritalStatusExtension named maritalStatus 0..1
