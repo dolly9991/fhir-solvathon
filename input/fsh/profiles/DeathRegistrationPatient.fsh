@@ -25,3 +25,6 @@ Description: "Profile for recording death registration in Botswana"
     PlaceOfDeath named placeOfDeath 0..1 and
     Certifier named certifier 0..1 and
     DeathTime named deathTime 0..1
+
+* maritalStatus from VSMaritalStatus (extensible)
+* extension contains MyMaritalStatusExtension named * maritalStatus 0..1
