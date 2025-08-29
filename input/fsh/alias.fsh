@@ -1,0 +1,1 @@
+$SCT = http://snomed.info/sct
