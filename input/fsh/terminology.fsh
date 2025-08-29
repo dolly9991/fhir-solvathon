@@ -14,5 +14,4 @@ Title: "Marital Status"
 Description: "A list of codes for marital status."
 * ^experimental = true
 * ^status = #active
-* $SCT#315124004
 * include codes from system CSMaritalStatus

@@ -1,1 +1,1 @@
-Alias: SCT = http://snomed.info/sct
+// Alias: SCT = http://snomed.info/sct
