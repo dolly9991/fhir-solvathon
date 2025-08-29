@@ -1,0 +1,13 @@
+map "http://botswana.gov.bw/fhir/StructureMap/CivilRegistrationToFHIRPatient" = "CivilRegistrationToFHIRPatient"
+
+uses "http://botswana.gov.bw/fhir/StructureDefinition/CivilRegistrationLogicalModel" alias CivilPatient as source
+uses "http://hl7.org/fhir/StructureDefinition/Patient" alias FHIRPatient as target
+
+group CivilToFHIR(source src : CivilPatient, target tgt : FHIRPatient) {
+  src.name as srcName -> tgt.name as tgtName then {
+    srcName -> tgtName.text "mapFullName";
+  };
+  src.motherName -> tgt.contact[0].name.text "mapMotherName";
+  src.fatherName -> tgt.contact[1].name.text "mapFatherName";
+  src.identityNumber -> tgt.identifier "mapNationalID";
+}
