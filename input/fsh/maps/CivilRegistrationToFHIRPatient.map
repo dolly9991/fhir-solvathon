@@ -1,0 +1,8 @@
+map "http://neo.providers/fhir/StructureMap/CivilRegistrationToFHIRPatient" = "CivilRegistrationToFHIRPatient"
+
+uses "http://neo.providers/fhir/StructureDefinition/CivilRegistrationLogicalModel" alias CivilPatient as source
+uses "http://hl7.org/fhir/StructureDefinition/Patient" alias FHIRPatient as target
+
+group CivilToFHIR(source src : CivilPatient, target tgt : FHIRPatient) {
+  src.name -> tgt.name.text "mapFullName";
+}
